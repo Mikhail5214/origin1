@@ -1,0 +1,30 @@
+Private Sub CommandButton1_Click()
+
+If OptionButton1.Value Then
+TextBox2.Value = TextBox1.Value * TextBox3.Value
+End If
+
+If OptionButton2.Value Then
+TextBox2.Value = TextBox1.Value * TextBox4.Value
+End If
+
+If OptionButton3.Value Then
+TextBox2.Value = TextBox1.Value * TextBox5.Value
+End If
+
+End Sub
+Private Sub CommandButton2_Click()
+
+If OptionButton1.Value Then
+TextBox2.Value = TextBox1.Value * TextBox3.Value
+End If
+
+If OptionButton2.Value Then
+TextBox2.Value = TextBox1.Value * TextBox4.Value
+End If
+
+If OptionButton3.Value Then
+TextBox2.Value = TextBox1.Value * TextBox5.Value
+End If
+
+End Sub
